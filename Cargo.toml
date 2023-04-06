@@ -5,7 +5,7 @@ licence = "MIT"
 license-file = "LICENCE.txt"
 readme = "readme.md"
 repository = "https://github.com/Jaranamo1/gdilib-rs/"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 
 [dependencies]
