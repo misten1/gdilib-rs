@@ -1,6 +1,7 @@
 [package]
 name = "gdilib-rs"
 description = "GDI library for desktop effects"
+licence = "MIT"
 readme = "readme.md"
 version = "0.1.0"
 edition = "2021"
