@@ -3,6 +3,7 @@ name = "gdilib-rs"
 description = "GDI library for desktop effects"
 licence = "MIT"
 readme = "readme.md"
+repository = "https://github.com/Jaranamo1/gdilib-rs/"
 version = "0.1.0"
 edition = "2021"
 
