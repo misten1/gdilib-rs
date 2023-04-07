@@ -34,7 +34,20 @@ impl Window {
         self.hwnd
     }
 
-    // Some neat presets that look alright
+    pub fn get_x(&self) -> i32 {
+        self.x
+    }
+
+    pub fn get_y(&self) -> i32 {
+        self.y
+    }
+
+    // Call when done with object
+    pub unsafe fn close(&self) {
+        ReleaseDC(self.get_hwnd(), self.get_dc());
+    }
+
+    // Some basic presets that look alright
 
     pub unsafe fn rgb_glitch(&self) {
         BitBlt(

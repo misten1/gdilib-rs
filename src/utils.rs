@@ -1,5 +1,6 @@
 use std::ptr::null_mut;
 
+use random_number::random;
 use winapi::{
     shared::windef::{COLORREF, HICON__, RECT},
     um::{wingdi::RGB, winnt::LPCWSTR, winuser::LoadIconW},
@@ -30,4 +31,8 @@ pub unsafe fn create_rect(x: i32, y: i32, w: i32, h: i32) -> RECT {
         right: x + w,
         bottom: y + h,
     }
+}
+
+pub fn random_color() -> COLORREF {
+    RGB(random!(0, 255), random!(0, 255), random!(0, 255))
 }
