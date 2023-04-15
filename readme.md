@@ -1,5 +1,7 @@
 # gdilib-rs
 
+![crates.io](https://img.shields.io/crates/v/gdilib-rs.svg)
+
 --------
 
 A simple library that supplies functions for easy GDI manipualation of the desktop
