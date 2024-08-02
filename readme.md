@@ -1,4 +1,4 @@
-# DISCONTINUED - gdilib-rs
+# gdilib-rs
 
 ![crates.io](https://img.shields.io/crates/v/gdilib-rs.svg)
 
